@@ -1,13 +1,13 @@
-import express, {Express, Request,Response} from "express";
+// import  {Express, Request,Response} from "express";
 
-const app: Express = express();
+// const app: Express = ();
 
-app.get("/", (request: Request, response: Response) => {
-    response.json({
-        "message" : "Hello World"
-    })
-})
+// app.get("/", (request: Request, response: Response) => {
+//     response.json({
+//         "message" : "Hello World"
+//     })
+// })
 
-app.listen(333, () => {
-    console.log("Aceito")
-})
+// app.listen(333, () => {
+//     console.log("Aceito")
+// })
